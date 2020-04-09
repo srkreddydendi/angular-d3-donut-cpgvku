@@ -1,1 +1,11 @@
 /* Add application styles & imports to this file! */
+
+angular-d3-donut  g.legend {
+  display: none;
+  visibility: hidden;
+}
+
+angular-d3-donut svg{
+  width: 100 !important;
+  height: 200  !important;
+}
