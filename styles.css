@@ -4,8 +4,11 @@ angular-d3-donut  g.legend {
   display: none;
   visibility: hidden;
 }
-
-angular-d3-donut svg{
-  width: 100 !important;
-  height: 200  !important;
+angular-d3-donut > svg ~ g{
+  float: left;
+  margin-left: 0px;
 }
+/*angular-d3-donut svg{
+  width: 100px !important;
+  height: 200px  !important;
+}*/
