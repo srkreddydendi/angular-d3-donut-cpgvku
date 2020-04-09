@@ -1,0 +1,7 @@
+p {
+  font-family: Lato;
+}
+angular-d3-donut > div#donutChart {
+  display: none;
+  visibility: hidden;
+}
